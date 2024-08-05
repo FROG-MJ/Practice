@@ -1,0 +1,12 @@
+*{margin: 0;padding: 0;}
+ul,li{list-style: none;}
+a{text-decoration: none;}
+nav>div{width: 100%;background-color: white;border-bottom: 1px solid #a0a0a0;position: fixed;top: 0;left: 0;padding: 2% 0;overflow: hidden;}
+nav>div>h4{float: left;color: aqua;font-size: 2em;margin-left: 10%;}
+nav>div>ul{float: right;padding: 0 20%;}
+nav>div>ul>li{float: left;margin-left: 50px;}
+nav>div>ul>li>a{display: block;}
+main{clear: both;margin-top: 15%;}
+main>div>h2{background-color: rgb(65, 65, 65);width: 35vw;margin: auto;text-align: center;color: white;height: 10vw;line-height: 10vw;border-radius: 2vw;font-size: 2em;}
+main>div>button{display: block;margin: auto;width: 8vw;height: 4vw;border: 3px solid #a0a0a0;margin-top: 3%;border-radius: 1vw;background-color: transparent;font-size: 20px;color: #a0a0a0;font-weight: bolder;transition: all 1s;}
+main>div>button:hover{background-color: #a0a0a0;color: white;}
